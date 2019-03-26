@@ -8,4 +8,4 @@
 ## Where to place CDH parcels after downloaded
     Go to Administration Tab then click on Parcels on left navigaton bar and check value of "Local Parcel Repository Path" property.
 
-![Cloudera Administration Tab](Cloudera_Parcels_Location_Pic.png)
+![Cloudera Administration Tab](Cloudera_Parcels_Location_Pic.PNG)
