@@ -1,0 +1,23 @@
+****************************************************
+		Packages and Software Required in VM's
+****************************************************
+	$$$: Run following to update system if you face any issue before installing any software -> sudo apt-get update && sudo apt-get upgrade
+	$$$: Run this commmand to access Host OS shared folder in VM  "sudo apt-get install virtualbox-guest-utils"
+	$$$: Run command to install net-tools "sudo apt install net-tools"
+	$$$: Run command to install SSH server so that you can connect VM through putty "sudo apt-get install openssh-server"
+
+	1. Java
+		1. Command to install open jdk8 -> sudo apt-get install openjdk-8-jdk
+		2. Command to install jre -> sudo apt-get install openjdk-8-jre
+	2. Python
+	3. Kafka
+	4. Spark
+	5. Monitoring Tools
+		1. Graphite Setup
+			1. Carbon
+			2. Whisper
+			3. Graphite webapp
+			4. Dependecies
+		2. Gafana
+	6. SSH password less login
+	
