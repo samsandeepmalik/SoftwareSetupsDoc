@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T19:34:01.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="71uikoLg9f-WvYp2xS2B" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-22T19:35:52.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fKBGYHn4gy06jbnDTo1z" version="20.3.6" type="github" pages="3">
   <diagram id="rqMqns6H8hSO7isT678B" name="HighLevel Architecture">
     <mxGraphModel dx="2418" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -344,6 +344,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="200" width="166" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-2" value="&lt;b&gt;Unified App Engine&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mHTV1BYTzba-QvhiLEk6-1">
+          <mxGeometry x="20.670000000000016" y="170" width="119.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-3" value="" style="group" vertex="1" connectable="0" parent="mHTV1BYTzba-QvhiLEk6-1">
+          <mxGeometry width="166" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mHTV1BYTzba-QvhiLEk6-3">
+          <mxGeometry y="10" width="166" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" vertex="1" parent="mHTV1BYTzba-QvhiLEk6-3">
+          <mxGeometry width="22" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="mHTV1BYTzba-QvhiLEk6-3">
+          <mxGeometry x="6.670000000000016" y="20" width="147.33" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-7" value="&lt;b&gt;Scaling Policies (to meet the traffic demand)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-8" value="Ramp-Up - when a target has &amp;gt; 500 requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="455" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-9" value="Ramp-Down - when a target has &amp;lt; 150 requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
