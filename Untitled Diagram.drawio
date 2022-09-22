@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T21:11:02.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YNSRwbBpJhjdiNklP-Hh" version="20.3.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-22T21:22:26.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BCXjQKvCK2PE6Wt_m3uq" version="20.3.6" type="github" pages="4">
   <diagram id="rqMqns6H8hSO7isT678B" name="HighLevel Architecture">
     <mxGraphModel dx="3156" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
           <mxGeometry x="50" y="770" width="72" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4VI7jf_m7oDvKMYFuWO9-73" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="726" width="200" height="224" as="geometry" />
+          <mxGeometry x="460" y="870" width="200" height="224" as="geometry" />
         </mxCell>
         <mxCell id="4VI7jf_m7oDvKMYFuWO9-71" value="" style="group" vertex="1" connectable="0" parent="4VI7jf_m7oDvKMYFuWO9-73">
           <mxGeometry width="200" height="194" as="geometry" />
@@ -226,7 +226,7 @@
         <mxCell id="h0hANzDx7tWONr7pSFKa-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="740" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h0hANzDx7tWONr7pSFKa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h0hANzDx7tWONr7pSFKa-3">
+        <mxCell id="h0hANzDx7tWONr7pSFKa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h0hANzDx7tWONr7pSFKa-3" target="4VI7jf_m7oDvKMYFuWO9-70">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="806" as="targetPoint" />
           </mxGeometry>
@@ -236,6 +236,14 @@
             <Array as="points">
               <mxPoint x="300" y="620" />
               <mxPoint x="-4" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asDQ0geWwzglb9j8I-VQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h0hANzDx7tWONr7pSFKa-3" target="4VI7jf_m7oDvKMYFuWO9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="806" />
+              <mxPoint x="570" y="709" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -252,7 +260,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h0hANzDx7tWONr7pSFKa-11" value="Airflow Task &lt;br&gt;Data Ingestion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="830" width="100" height="40" as="geometry" />
+          <mxGeometry x="640" y="846" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h0hANzDx7tWONr7pSFKa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4VI7jf_m7oDvKMYFuWO9-17" target="4VI7jf_m7oDvKMYFuWO9-13">
           <mxGeometry relative="1" as="geometry" />
@@ -265,6 +273,9 @@
         </mxCell>
         <mxCell id="asDQ0geWwzglb9j8I-VQ-3" value="Self-serve GUI for API explorer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-10.5" y="600" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="asDQ0geWwzglb9j8I-VQ-5" value="Ingesting one time upload dataset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="780" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
