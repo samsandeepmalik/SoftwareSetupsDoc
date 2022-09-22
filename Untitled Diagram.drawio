@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T19:35:52.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fKBGYHn4gy06jbnDTo1z" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-22T19:44:14.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8gosBJVOYeQffSx28bnP" version="20.3.6" type="github" pages="3">
   <diagram id="rqMqns6H8hSO7isT678B" name="HighLevel Architecture">
     <mxGraphModel dx="2418" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -370,6 +370,30 @@
         </mxCell>
         <mxCell id="mHTV1BYTzba-QvhiLEk6-9" value="Ramp-Down - when a target has &amp;lt; 150 requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-10" value="&lt;b&gt;AWS ECS Cluster&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-11" value="ECS cluster use EC2 target group to spin the container as per scaling policy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="575" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-12" value="&lt;b&gt;Application Load Balancer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="635" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-13" value="ALB handle the HTTP/HTTPS request distribution among healthy containers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-14" value="&lt;b&gt;API Call Process&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-15" value="When container receives API call then it validate the request schema using Metadata DB (which stores that information) / Cache if cache has that information" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="755" width="860" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-16" value="Once the request passes the schema validation phase then identify the target data source and pull its db connection and request processing template information from Metadata db&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="980" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHTV1BYTzba-QvhiLEk6-17" value="Once the request is transformed into the query as per target data source specification then call the DB and form the response in unified schema (JSON) and return the response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="960" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
