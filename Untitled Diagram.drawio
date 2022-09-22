@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T19:44:14.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8gosBJVOYeQffSx28bnP" version="20.3.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-22T19:44:56.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OQQuvULOuNt6-VVxoWt7" version="20.3.6" type="github" pages="4">
   <diagram id="rqMqns6H8hSO7isT678B" name="HighLevel Architecture">
     <mxGraphModel dx="2418" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -395,6 +395,14 @@
         <mxCell id="mHTV1BYTzba-QvhiLEk6-17" value="Once the request is transformed into the query as per target data source specification then call the DB and form the response in unified schema (JSON) and return the response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="800" width="960" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T8C5GU7jC2FjKYy6xoT7" name="Self-Serve Portal">
+    <mxGraphModel dx="1568" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
