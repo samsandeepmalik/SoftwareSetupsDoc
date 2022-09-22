@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T21:22:45.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5I_xYHvkZTRblH72wwJh" version="20.3.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-22T21:23:38.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fgfntzC9hJ5-y7d7Lc-Z" version="20.3.6" type="github" pages="4">
   <diagram id="rqMqns6H8hSO7isT678B" name="HighLevel Architecture">
     <mxGraphModel dx="3156" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -276,6 +276,9 @@
         </mxCell>
         <mxCell id="asDQ0geWwzglb9j8I-VQ-5" value="Ingesting one time upload dataset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="375" y="780" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="asDQ0geWwzglb9j8I-VQ-6" value="Schedule Jobs for CDC/Incremental updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="846" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
